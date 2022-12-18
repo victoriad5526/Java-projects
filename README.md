@@ -1,1 +1,1 @@
-EUR -> USD 
+Java projects
