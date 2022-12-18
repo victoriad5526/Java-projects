@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Double eur = scanner.nextDouble();
+        System.out.println(eur + " EUR to USD is: " + toUsd(eur));
+    }
+
+    private static double toUsd(Double eur) {
+        return eur * 1.3;    
+    }
+}
