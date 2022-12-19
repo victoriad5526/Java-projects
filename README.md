@@ -30,6 +30,18 @@ The number of eclairs - an integer in the range [0… 2000]
 
 The number of croissants - an integer in the range [0… 2000]
 
-Output
 
-Print the final amount collected at the end of the campaign, rounded to the second decimal place."
+
+Print the final amount collected at the end of the campaign, rounded to the second decimal place.
+
+Example
+Input
+20
+8
+14
+30
+16 
+
+Output
+119728.00
+"
