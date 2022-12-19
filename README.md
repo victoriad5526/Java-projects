@@ -1,7 +1,8 @@
 Java projects
 
 1. CurrencyExchange
-    EUR-> USD
+
+EUR-> USD
     
     
 2. CharityCampaign
