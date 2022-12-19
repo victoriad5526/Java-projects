@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        double cakePrice = 45;
+        double wafflesPrice = 5.80;
+        double pancakePrice = 3.20;
+
+        int days = Integer.parseInt(scanner.nextLine());
+        int bakers = Integer.parseInt(scanner.nextLine());
+        int cakes = Integer.parseInt(scanner.nextLine());
+        int waffles = Integer.parseInt(scanner.nextLine());
+        int pancakes = Integer.parseInt(scanner.nextLine());
+
+        double totalCakePrice = cakes * cakePrice;
+        double totalWafflePrice = waffles * wafflesPrice;
+        double totalPancakesPrice = pancakes * pancakePrice;
+
+        double totalPrice = (totalCakePrice+totalWafflePrice+totalPancakesPrice) * bakers * days;
+        double totalPriceAfterExpenses = totalPrice - (totalPrice / 8);
+
+        System.out.println(String.format("%.2f" , totalPriceAfterExpenses));
+    }
+}
