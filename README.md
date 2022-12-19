@@ -34,7 +34,7 @@ The number of croissants - an integer in the range [0… 2000]
 
 Print the final amount collected at the end of the campaign, rounded to the second decimal place.
 
-Example
+Example:
 Input
 20
 8
